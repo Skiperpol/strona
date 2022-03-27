@@ -1,0 +1,89 @@
+* {
+	margin: 0px 0px;
+	padding: 0px 0px;
+	
+  }
+
+body{
+	background-image:url('img/matrix.gif');
+	background-color: rgb(224, 118, 118);
+	overflow-x: hidden;
+}
+.header{
+	width: 100vw;
+	height:60px;
+	background-color: rgb(5, 80, 5);
+	position: relative;
+	border-bottom: 1px solid black;
+}
+.logo{
+	position: absolute;
+	height: 60px;
+	top: 0px;
+	left: 0px;
+}
+.zakladki{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+a.main:link, a.main:visited {
+	height: 100%;
+	width: 150px;
+	color: white;
+	display:flex;
+    align-items:center;
+    justify-content: center;
+	text-decoration: none;
+	border-left: 1px solid black;
+	font-size: 20px;
+}
+a.main:hover{
+	background-color: rgb(4, 56, 4);
+}
+
+a.quiz{
+	text-decoration: none;
+	color: green;
+}
+.zegar{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 200px;
+	height: 60px;
+	display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.container{
+	width: 60vw;
+	min-height: 92vh;
+	height: auto;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.main{
+text-align: center;
+
+}
+
+footer{
+	width: 100vw;
+	height: 8vh;
+	border-top: 1px solid black;
+	background-color: rgb(5, 80, 5);
+}
+.footer_tekst{
+	margin-left: 30px;
+	color: rgba(233, 210, 210, 0.589);
+	font-size: 20px;
+	margin-top: 7px;
+}

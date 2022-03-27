@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rozwój Szkodliwego Oprogramownania</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <img src="img/logo2.png" alt="Logo" style="height: 100%;">
+            </div>
+            <div class="zakladki">
+                <a href="main.html" class="main" target="content">Główna</a>
+                <a href="definicja.html" class="main" target="content">Definicja</a>
+                <a href="ewolucja.html" class="main" target="content">Ewolucja</a>
+                <a href="robaki.html" class="main" target="content">Robaki</a>
+                <a href="quiz.html" class="main" target="content">Quiz</a>
+                <a href="film.html" class="main" target="content" style="border-right: 1px solid black;">Film</a>
+                <div class="zegar">
+                    <div id="czas" style="font-size: 30px; color: white;"></div>
+                </div>
+
+            </div>
+        </div>
+        <script type="text/javascript">
+            function getTime() 
+            {
+                return (new Date()).toLocaleTimeString();
+            }
+            document.getElementById('czas').innerHTML = getTime();
+            setInterval(function() {
+                document.getElementById('czas').innerHTML = getTime(); 
+            }, 1000);
+        </script>
+    </body>
+</html>
